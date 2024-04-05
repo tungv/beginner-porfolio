@@ -31,3 +31,30 @@ body {
     text-wrap: balance;
   }
 }
+
+.button {
+  width: 28px;
+  height: 28px;
+
+  border: 1px solid rgb(var(--foreground-rgb));
+  background: slategray;
+}
+
+input {
+  background: green;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.calculator {
+  background: white;
+  padding: 12px;
+}
+
+.button-panel {
+  display: grid;
+  padding: 4px;
+  width: min-content;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4px;
+}
