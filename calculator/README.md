@@ -1,5 +1,9 @@
 first thing first:
 
+make sure you are in this `calculator` directory.
+
+then run:
+
 ```
 npm install
 ```
